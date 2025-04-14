@@ -25,7 +25,7 @@ section h1 {
   margin-left: 10%;
 }
 .pictureheader {
-  background-image: url("../img/backgroundgallerie.jpg");
+  background-image: url("/img/backgroundgallerie.jpg");
   background-repeat: repeat;
   background-size: contain;
   height: 50vh;

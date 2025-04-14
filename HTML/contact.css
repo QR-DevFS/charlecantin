@@ -1,0 +1,207 @@
+a {
+  font-family: "Indie Flower", cursive;
+}
+
+nav ul li > a:link {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffd03b;
+}
+.navbar-nav {
+  margin-left: 10%;
+}
+
+nav ul li > a:visited {
+  color: #ffd03b;
+}
+nav ul li a:hover {
+  transform: scale(1.2);
+}
+form {
+  /* On centre le formulaire */
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 400px;
+  /* Le contour du formulaire */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  /* Taille et alignement uniformes */
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5rem;
+  width: 50%;
+  text-align: right;
+  padding-top: 10%;
+}
+
+input,
+textarea {
+  /* On s'assure que les champs texte ont la même police
+     Par défaut, les zones de texte ont une police à chasse
+     fixe. */
+  font: 1em sans-serif;
+  padding-top: 3%;
+  margin-top: 2%;
+  padding-left: 3%;
+
+  /* Taille uniforme pour des champs */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* On utilise la même bordure que pour le formulaire */
+  border: 2px solid #ffd03b;
+  border-radius: 40px 10px;
+}
+
+input:focus,
+textarea:focus {
+  /* On rajoute une mise en avant pour les éléments avec
+     le focus. */
+  border: 2px solid #ffd03b;
+  border-radius: 40px 10px;
+}
+
+textarea {
+  /* On aligne les textes sur plusieurs lignes avec leur
+     libellé. */
+  vertical-align: top;
+
+  /* On fournit un peut d'espace pour saisir du texte. */
+  height: 5em;
+
+  /* On permet de redimensionner verticalement. */
+  resize: vertical;
+}
+
+button {
+  /* Une marge supplémentaire représentant approximativement
+     le même espace qu'entre les libellés et les champs. */
+  margin-top: 3em;
+  margin-left: 10em;
+  padding: 3%;
+  border: 2px solid #ffd03b;
+  border-radius: 10px;
+  font: 1.5rem;
+  font-family: "Indie Flower", cursive;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #efdfe0;
+  text-align: center;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  font-size: 70px;
+  font-family: "Indie Flower", cursive;
+}
+
+h5 {
+  text-align: center;
+  color: #624444;
+}
+
+.footer {
+  text-align: center;
+  background-color: #f6f6f6;
+}
+h6 {
+  font-size: 18px;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+}
+
+i {
+  margin: auto;
+  padding: 1%;
+  color: #ffd03b;
+}
+i:hover {
+  transform: scale(1.2);
+}
+a:link {
+  text-decoration: none;
+}
+
+.mentions {
+  font-size: 10px;
+  margin-top: 2%;
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .navbar-nav {
+    width: 75%;
+  }
+  nav ul li > a:link {
+    font-size: 20px;
+  }
+  .nav-item {
+    margin-left: 6%;
+  }
+  nav a img {
+    width: 165px;
+    height: 165px;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .navbar-nav {
+    width: 10%;
+  }
+  nav ul li > a:link {
+    font-size: 16px;
+  }
+  .nav-item {
+    margin-left: 1%;
+  }
+  nav a img {
+    width: 150px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+  fieldset {
+    width: 25%;
+  }
+  label,
+  input,
+  textarea {
+    margin-left: 50%;
+    font-size: 15px;
+  }
+  input {
+    width: 50vw;
+    padding: 15%;
+  }
+
+  label {
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  .navbar-collapse {
+    margin-left: 50%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+  }
+  .navbar-toggler {
+    margin-right: 10%;
+  }
+  .navbar-toggler-icon {
+    background-color: #ffd03b;
+    border-radius: 5px;
+  }
+}

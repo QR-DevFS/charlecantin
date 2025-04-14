@@ -1,0 +1,123 @@
+a {
+  font-family: "Indie Flower", cursive;
+}
+nav ul li > a:link {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffd03b;
+}
+
+nav ul li > a:visited {
+  color: #ffd03b;
+}
+nav ul li a:hover {
+  transform: scale(1.2);
+}
+
+section h1 {
+  color: #efdfe0;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 80px;
+  font-family: "Indie Flower", cursive;
+}
+.navbar-nav {
+  margin-left: 10%;
+}
+.pictureheader {
+  background-image: url("../img/backgroundgallerie.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  height: 50vh;
+  margin-top: 5%;
+  min-width: 100%;
+}
+
+.dropdown {
+  margin-top: 5%;
+  margin-left: 75%;
+  margin-bottom: 5%;
+}
+
+.dispo {
+  display: flex;
+  display: inline-block;
+  margin-left: 35%;
+}
+footer {
+  text-align: center;
+  background-color: #f6f6f6;
+}
+h6 {
+  font-size: 18px;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+}
+
+i {
+  margin: auto;
+  padding: 1%;
+  color: #ffd03b;
+}
+i:hover {
+  transform: scale(1.2);
+}
+a:link {
+  text-decoration: none;
+}
+
+.mentions {
+  font-size: 10px;
+  margin-top: 2%;
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  nav ul li > a:link {
+    font-size: 22px;
+  }
+  .nav-item {
+    margin-left: 5%;
+  }
+  nav a img {
+    width: 165px;
+    height: 165px;
+  }
+  .navbar-nav {
+    width: 75%;
+  }
+  #div1 {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  nav ul li > a:link {
+    font-size: 18px;
+  }
+  nav a img {
+    width: 140px;
+    height: 140px;
+  }
+  .navbar-nav {
+    width: 40%;
+  }
+  .nav-item {
+    margin-left: 5%;
+  }
+  section h1 {
+    padding-top: 25%;
+  }
+  .dropdown {
+    margin-left: 20%;
+  }
+  .navbar-collapse {
+    margin-left: 50%;
+    margin-top: 1%;
+  }
+  .navbar-toggler {
+    margin-right: 10%;
+  }
+  .navbar-toggler-icon {
+    background-color: #ffd03b;
+    border-radius: 5px;
+  }
+}
